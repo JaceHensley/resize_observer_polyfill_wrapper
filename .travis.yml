@@ -2,7 +2,6 @@ language: dart
 dist: precise
 dart:
   - "1.24.2"
-with_content_shell: true
 addons:
   firefox: "latest"
 before_install:
