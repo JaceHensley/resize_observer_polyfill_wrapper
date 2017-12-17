@@ -2,6 +2,11 @@
 
 > A Dart wrapper around the [ResizeObserver Polyfill][resize-observer-polyfill]. Uses the [`js` Dart package][js-dart-package] to interop with the JS lib.
 
+[![Pub](https://img.shields.io/pub/v/resize_observer_polyfill_wrapper.svg)](https://pub.dartlang.org/packages/resize_observer_polyfill_wrapper)
+[![Build Status](https://travis-ci.org/JaceHensley/resize_observer_polyfill_wrapper.svg?branch=master)](https://travis-ci.org/JaceHensley/resize_observer_polyfill_wrapper)
+![dart](https://img.shields.io/badge/%3C%2F%3E-Dart-blue.svg)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/JaceHensley/resize_observer_polyfill_wrapper/blob/master/LICENSE)
+
 ## Usage
 
 - main.dart

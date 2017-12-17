@@ -20,5 +20,20 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-export 'src/resize_observer.dart';
-export 'src/resize_observer_entry.dart';
+import 'package:dart_dev/dart_dev.dart' show config, dev;
+
+main(List<String> args) async {
+  const directories = const <String>[
+    'lib/',
+    'tool/',
+  ];
+
+  config.analyze.entryPoints = directories;
+  config.copyLicense.directories = directories;
+
+  config.test
+    ..platforms = ['firefox']
+    ..unitTests = ['test/'];
+
+  await dev(args);
+}

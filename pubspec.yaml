@@ -1,15 +1,22 @@
 name: resize_observer_polyfill_wrapper
-description: A starting point for Dart libraries or applications.
-version: 0.0.1
-#homepage: https://www.example.com
-#author: Your Name <email@example.com>
+description: A Dart wrapper for the `resize-observer-polyfill` JS library.
+version: 1.0.0
+homepage: https://github.com/JaceHensley/resize_observer_polyfill_wrapper
+author: Jace Hensley <jacehensley@example.com>
 
 environment:
   sdk: '>=1.20.1 <2.0.0'
 
 dependencies:
- js: any
+  js: ^0.6.1
+  meta: ^1.1.2
 
 dev_dependencies:
-  browser: any
-  test: ^0.12.0
+  browser: ^0.10.0+2
+  dart_dev: ^1.8.0
+  dart_to_js_script_rewriter: ^1.0.1
+  dependency_validator: ^1.0.0
+  test: ^0.12.29
+
+transformers:
+- dart_to_js_script_rewriter
