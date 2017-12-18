@@ -52,4 +52,4 @@ main() {
 
 
 [js-dart-package]: https://pub.dartlang.org/packages/js
-[resize-observer-polyfill]: https://github.com/Workiva/sockjs_client_wrapper
+[resize-observer-polyfill]: https://github.com/que-etc/resize-observer-polyfill
